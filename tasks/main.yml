@@ -7,6 +7,6 @@
     size: "{{ resize_lvol.size }}"
     resizefs: true
   when:
-    - resize_lvol.vg in ansible_lvm['vgs']
-    - resize_lvol.lv in ansible_lvm['lvs']
+    - resize_lvol.vg in ansible_lvm['vgs']|default([],true)
+    - resize_lvol.lv in ansible_lvm['lvs']|default([],true)
 
