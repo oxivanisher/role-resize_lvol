@@ -9,4 +9,3 @@
   when:
     - resize_lvol.vg in ansible_lvm['vgs']|default([],true)
     - resize_lvol.lv in ansible_lvm['lvs']|default([],true)
-
