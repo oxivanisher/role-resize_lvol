@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: resize_lvol
+  namespace: oxivanisher
   author: Marc Urben
   description: Resize LVM Logical Volume
   company: Thunderbluff
