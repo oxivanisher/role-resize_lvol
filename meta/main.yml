@@ -51,5 +51,7 @@ galaxy_info:
   galaxy_tags:
     - lvm
 
-dependencies:
-  - role: community.general.lvol
+dependencies: []
+
+collections:
+  - community.general
