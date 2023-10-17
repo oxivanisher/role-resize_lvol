@@ -52,4 +52,5 @@ galaxy_info:
     - lvm
 
 dependencies:
-  - role: community.general.lvol
+  []
+  # - role: community.general.lvol
