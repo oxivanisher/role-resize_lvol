@@ -1,6 +1,5 @@
 ---
 
-resize_lvol:
-  lv:
-  vg:
-  size: 100%PVS
+resize_lvol_lv:
+resize_lvol_vg:
+resize_lvol_size: 100%PVS
