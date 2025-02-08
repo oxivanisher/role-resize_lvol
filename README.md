@@ -1,5 +1,6 @@
 resize_lvol
 ===========
+[![Ansible Lint](https://github.com/oxivanisher/role-resize_lvol/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/oxivanisher/role-resize_lvol/actions/workflows/ansible-lint.yml)
 
 Resize a LVM logical volume.
 The default value of the size is resizing the LV to the complete free space in the PV.
