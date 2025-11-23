@@ -7,7 +7,7 @@
     size: "{{ resize_lvol_size }}"
     resizefs: true
   when:
-    - resize_lvol_vg in ansible_lvm['vgs']|default([],true)
-    - resize_lvol_lv in ansible_lvm['lvs']|default([],true)
+    - resize_lvol_vg in ansible_facts.lvm['vgs']|default([],true)
+    - resize_lvol_lv in ansible_facts.lvm['lvs']|default([],true)
   become: true
   become_user: root
